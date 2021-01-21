@@ -2,6 +2,7 @@
     // General Editor Settings
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "editor.fontSize": 18,
+    "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 17,
     "workbench.sideBar.location": "right",
 
@@ -12,4 +13,7 @@
     
     // Use VSIntelliCode as auto complete
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
