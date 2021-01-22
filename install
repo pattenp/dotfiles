@@ -14,3 +14,8 @@ for f in `find . -regex ".*\.lua$"`; do
     rm -rf ~/.config/nvim/$f
     ln -s ~/workspace/github/pattenp/dotfiles/$f ~/.config/nvim/$f
 done
+
+#CoC
+rm ~/.config/nvim/coc-settings.json
+ln -s ~workspace/github/pattenp/dotfiles ~/.config/nvim/coc-settings.json
+

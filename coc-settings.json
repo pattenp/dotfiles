@@ -1,0 +1,26 @@
+{
+  "eslint.autoFixOnSave": true,
+  "html.filetypes": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"],
+      "prettier.disableSuccessMessage": true,
+      "tsserver.formatOnType": true,
+      "coc.preferences.formatOnType": true,
+      "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "javascript",
+        "javascriptreact",
+        "json"
+      ],
+      "diagnostic.checkCurrentLine": true,
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
