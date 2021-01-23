@@ -37,12 +37,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
 call plug#end()
 
-colorscheme onehalfdark
+colorscheme gruvbox
 
 highlight Normal guibg=none
 
 let mapleader = " "
-let g:airline_theme='onehalfdark'
+let g:airline_theme='gruvbox'
 
 nnoremap <leader>u :UndotreeShow<CR>
 

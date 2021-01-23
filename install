@@ -17,5 +17,5 @@ done
 
 #CoC
 rm ~/.config/nvim/coc-settings.json
-ln -s ~workspace/github/pattenp/dotfiles ~/.config/nvim/coc-settings.json
+ln -s ~/workspace/github/pattenp/dotfiles/coc-settings.json ~/.config/nvim/coc-settings.json
 
