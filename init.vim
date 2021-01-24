@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'gruvbox-community/gruvbox'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -25,6 +26,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 Plug 'mbbill/undotree'
+
+Plug 'airblade/vim-gitgutter'
 
 " Telescope
 Plug 'nvim-lua/popup.nvim'
