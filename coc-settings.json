@@ -12,15 +12,20 @@
         "css",
         "javascript",
         "javascriptreact",
-        "json"
+        "json",
+        "typescript",
+        "typescriptreact",
+        "html"
       ],
-      "diagnostic.checkCurrentLine": true,
-
+  "diagnostic.checkCurrentLine": true,
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "wxss.validate": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "tsserver.npm": "/usr/bin/npm",
+  "coc.preferences.hoverTarget": "echo",
+  "signature.target": "echo"
 }
