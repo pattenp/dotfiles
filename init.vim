@@ -1,17 +1,20 @@
 call plug#begin('~/.vim/plugged')
 Plug 'gruvbox-community/gruvbox'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'pbrisbin/vim-mkdir'
 " Airline
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
 
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': 'TSUpdate'}
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-dispatch'
 
 Plug 'alvan/vim-closetag'
 
@@ -37,18 +40,21 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
+
+Plug 'junegunn/gv.vim'
+Plug 'vuciv/vim-bujo'
+
+Plug 'joshdick/onedark.vim'
+Plug 'qpkorr/vim-bufkill'
+Plug 'nanotech/jellybeans.vim'
+Plug 'ajh17/spacegray.vim'
+Plug 'NLKNguyen/papercolor-theme'
+
 call plug#end()
 
-colorscheme gruvbox
-
-highlight Normal guibg=none
-
 let mapleader = " "
-let g:airline_theme='gruvbox'
 
 nnoremap <leader>u :UndotreeShow<CR>
-
-" lua require'nvim-treesitter.configs'.setup { highlight = { enable = true } }
 
 " Switch windows 
 nnoremap <leader>h :wincmd h<CR>
@@ -59,3 +65,7 @@ nnoremap <leader>l :wincmd l<CR>
 " Resize splits.
 nnoremap <Leader>+ :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
+
+colorscheme gruvbox
+highlight Normal guibg=none
+let g:gruvbox_contrast_dark = 'hard'

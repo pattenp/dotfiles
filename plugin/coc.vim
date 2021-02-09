@@ -3,12 +3,12 @@ let g:coc_global_extensions = [
 \'coc-pairs',
 \'coc-tsserver',
 \'coc-json',
-\'coc-css',
 \'coc-emmet',
-\'coc-highlight',
 \'coc-html',
 \'coc-styled-components',
+\'coc-tailwindcss',
 \]
+"\'coc-css',
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   let g:coc_global_extensions += ['coc-prettier']

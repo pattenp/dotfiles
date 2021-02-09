@@ -43,3 +43,4 @@ set colorcolumn=80
 set signcolumn=yes
 " Give more space for displaying message.
 set cmdheight=2
+set termguicolors 

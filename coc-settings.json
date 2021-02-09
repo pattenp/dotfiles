@@ -26,6 +26,4 @@
     "javascript": "javascriptreact"
   },
   "tsserver.npm": "/usr/bin/npm",
-  "coc.preferences.hoverTarget": "echo",
-  "signature.target": "echo"
 }

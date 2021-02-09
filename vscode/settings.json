@@ -1,19 +1,16 @@
 {
     // General Editor Settings
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Ayu Dark",
     "editor.fontSize": 18,
     "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 17,
     "workbench.sideBar.location": "right",
 
-    // Neo Vim Extension Settings or settings required for the extension
-    "editor.scrollBeyondLastLine": false, // Recommended to turn of by Neo Vim Extenstion
-    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-    "editor.suggestSelection": "first",
-    
     // Use VSIntelliCode as auto complete
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "editor.suggestSelection": "first",
+    "workbench.iconTheme": "ayu",
 }
